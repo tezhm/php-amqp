@@ -31,7 +31,7 @@ http://pear.php.net/dtd/package-2.0.xsd">
  <date>2016-07-09</date>
  <time>17:00:00</time>
  <version>
-  <release>1.7.1</release>
+  <release>1.7.2-dev</release>
   <api>1.0.0</api>
  </version>
  <stability>
@@ -233,6 +233,24 @@ https://github.com/pdezwart/php-amqp/compare/v1.7.0...v1.7.1
  </extsrcrelease>
 
  <changelog>
+  <release>
+   <version>
+    <release>1.7.1</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes><![CDATA[
+       * Add support for pkg-config (Remi Collet)
+       * Fixed wrongful truncation of amqp.password to the length of amqp.login (https://github.com/skobkars)
+
+  For a complete list of changes see:
+  https://github.com/pdezwart/php-amqp/compare/v1.7.0...v1.7.1
+   ]]></notes>
+  </release>
   <release>
    <version>
     <release>1.7.0</release>
