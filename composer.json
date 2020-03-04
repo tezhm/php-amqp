@@ -1,5 +1,5 @@
 {
-    "name": "pdezwart/php-amqp",
+    "name": "tezhm/php-amqp",
     "type": "library",
     "description": "PHP AMQP Binding Library",
     "keywords": ["rabbitmq", "amqp", "message", "queue"],
